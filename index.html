@@ -4,20 +4,16 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="">
-	<meta name="author" content="">
+	<meta name="author" content="Beilin Li">
 
 	<title>Beilin Li</title>
 
 	<!-- CSS -->
 	<link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
 	<link href="assets/css/font-awesome.min.css" rel="stylesheet" media="screen">
-	<link href="assets/css/simple-line-icons.css" rel="stylesheet" media="screen">
-	<link href="assets/css/animate.css" rel="stylesheet">
 
 	<!-- Custom styles CSS -->
 	<link href="assets/css/style.css" rel="stylesheet" media="screen">
-
-    <script src="assets/js/modernizr.custom.js"></script>
 
 </head>
 <body>
@@ -35,7 +31,11 @@
 		  <div class="intro">
         <h1>Beilin Li</h1>
         <div class="start">student, software developer, chess player</div>
-        <div class="start" style="font-size:24px">
+        <div class="start" style="font-size:32px">
+
+					<a data-toggle="modal" href="#modal">
+						<i class="fa fa-info-circle"></i>
+					</a> |
           <a href="mailto:beilinl@andrew.cmu.edu">
             <i class="fa fa-envelope"></i>
           </a> |
@@ -54,329 +54,42 @@
         </div>
       </div>
     </div>
-
-    <a href="#education">
-		  <div class="scroll-down">
-        <span>
-          <i class="fa fa-angle-down fa-2x"></i>
-        </span>
-		  </div>
-    </a>
 	</section>
 
 	<!-- Home end -->
 
-	<!-- Navigation start -->
+	<!-- About me -->
+	<div id="modal" class="modal fade" role="dialog">
+  	<div class="modal-dialog">
 
-	<header class="header">
+    	<!-- Modal content-->
+    	<div class="modal-content">
+      	<div class="modal-header">
+        	<button type="button" class="close" data-dismiss="modal">&times;</button>
+        	<h3 class="modal-title">About Me</h3>
+      	</div>
+      	<div class="modal-body">
+        	<p>I'm Beilin, a junior at <a href="http://www.cmu.edu/">Carnegie Mellon University</a>
+						majoring in Math and Computer Science. I'm originally from
+						<a href="https://en.wikipedia.org/wiki/West_Lafayette,_Indiana">West Lafayette, Indiana</a>.</p>
 
-		<nav class="navbar navbar-custom" role="navigation">
+					<p>I've worked as a web developer for the <a href="https://www.psc.edu/index.php">Pittsburgh Supercomputing Center</a>
+						and CMU's <a href="https://healthdataalliance.com/cmlh/">Center for Machine Learning and Health</a>, and will be interning
+						at <a href="https://www.amazon.com/">Amazon</a> this summer. I also enjoy exploring new technologies and other areas
+						of math and computer science (see some of my pursuits <a href="https://github.com/beilinli">here</a>).</p>
 
-			<div class="container">
+					<p>I'm also an active chess player <a href="http://www.uschess.org/msa/MbrDtlMain.php?13450652">rated over 2100 by the US Chess Federation</a>.
+						In addition, I help direct local tournaments and write for <a href="https://chesssummit.com/">Chess^Summit</a>, a free chess instruction site.</p>
 
-				<div class="navbar-header">
-					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#custom-collapse">
-						<span class="sr-only">Toggle navigation</span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-					<a class="navbar-brand" href="index.html"><u>Beilin Li</u></a>
+					<p>My other interests include (to varying degrees of proficiency) cycling, tennis, table tennis, food, and geography.</p>
 				</div>
-
-				<div class="collapse navbar-collapse" id="custom-collapse">
-					<ul class="nav navbar-nav navbar-right">
-						<li><a href="#home">Home</a></li>
-						<li><a href="#education">Education</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#projects">Projects</a></li>
-						<li><a href="#chess">Chess</a></li>
-						<li><a href="#contact">Contact</a></li>
-					</ul>
-				</div>
-
-			</div><!-- .container -->
-
-		</nav>
-
-	</header>
-
-	<!-- Navigation end -->
-
-  <!-- Education start -->
-	<section id="education" class="pfblock pfblock-gray">
-		<div class="container">
-
-			<div class="row">
-
-				<div class="col-sm-6 col-sm-offset-3">
-
-					<div class="pfblock-header wow fadeInUp">
-						<h2 class="pfblock-title">Education</h2>
-						<div class="pfblock-line"></div>
-						<div class="pfblock-subtitle">
-              <b>Carnegie Mellon University,</b> Class of 2018<br/>
-              <b>B.S.</b> in Mathematics and Computer Science
-						</div>
-					</div>
-
-          <div class="pfblock-header wow fadeInUp">
-            <div class="pfblock-subtitle">
-              <ul class="list-group">
-                <li class="list-group-item list-group-item-info"><b>Coursework</b></li>
-                <li class="list-group-item">Great Theoretical Ideas in Computer Science</li>
-                <li class="list-group-item">Introduction to Computer Systems</li>
-                <li class="list-group-item">Principles of Real Analysis</li>
-                <li class="list-group-item">Probability and Computing</li>
-                <li class="list-group-item">Parallel/Sequential Algorithms and Data Structures</li>
-                <li class="list-group-item">Graph Theory</li>
-              </ul>
-            </div>
-          </div>
-
-				</div>
-		</div><!-- .container -->
-	</section>
-
-	<!-- Education end -->
-
-	<!-- Experience start -->
-
-	<section id="experience" class="pfblock">
-		<div class="container">
-      <div class="row">
-
-				<div class="col-sm-6 col-sm-offset-3">
-
-					<div class="pfblock-header wow fadeInUp">
-						<h2 class="pfblock-title">Experience</h2>
-						<div class="pfblock-line"></div>
-						<div class="pfblock-subtitle">
-              <ul class="list-group">
-                <li class="list-group-item">
-                  <p class="list-group-item-heading"><b>Amazon</b>, Software Engineering Intern</p>
-                  <p class="list-group-item-text">Starting May 2017</p>
-                </li>
-                <li class="list-group-item">
-                  <p class="list-group-item-heading"><b>Center for Machine Learning and Health</b>, Research Assistant</p>
-                  <p class="list-group-item-text">May 2016 - August 2016</p>
-                </li>
-                <li class="list-group-item">
-                  <p class="list-group-item-heading"><b>Pittsburgh Supercomputing Center</b>, Research Assistant</p>
-                  <p class="list-group-item-text">May 2015 - April 2016</p>
-                </li>
-              </ul>
-            </div>
-					</div>
-
-				</div>
-
-			</div>
-
-			<div class="row">
-
-				<div class="col-sm-6 col-sm-offset-3">
-
-
-
-				</div>
-
-			</div><!-- .row -->
-		</div><!-- .contaier -->
-
-	</section>
-
-	<!-- Experience end -->
-
-    <!-- Projects start -->
-
-    <section id="projects" class="pfblock pfblock-gray">
-
-      <div class="container">
-  			<div class="row">
-
-  				<div class="col-sm-6 col-sm-offset-3">
-
-  					<div class="pfblock-header wow fadeInUp">
-  						<h2 class="pfblock-title">Projects</h2>
-  						<div class="pfblock-line"></div>
-  						<div class="pfblock-subtitle">
-                For more on my projects, see <a href="https://github.com/beilinli">my GitHub page</a>.
-  						</div>
-  					</div>
-
-  				</div>
-
-  			</div><!-- .row -->
-
-
-              <div class="row">
-
-                  <div class="col-xs-12 col-sm-4 col-md-4">
-
-                      <div class="grid wow zoomIn">
-                          <figure class="effect-bubba">
-                              <img src="assets/images/generic-project.png" alt="img01"/>
-                              <figcaption>
-                                  <h2>It's a surprise!</h2>
-                              </figcaption>
-                          </figure>
-                      </div>
-
-                  </div>
-
-                  <div class="col-xs-12 col-sm-4 col-md-4">
-
-                      <div class="grid wow zoomIn">
-                          <figure class="effect-bubba">
-                              <img src="assets/images/generic-project.png" alt="img01"/>
-                              <figcaption>
-                                  <h2>It's a surprise!</h2>
-                              </figcaption>
-                          </figure>
-                      </div>
-
-                  </div>
-
-                  <div class="col-xs-12 col-sm-4 col-md-4">
-
-                      <div class="grid wow zoomIn">
-                          <figure class="effect-bubba">
-                              <img src="assets/images/generic-project.png" alt="img01"/>
-                              <figcaption>
-                                  <h2>It's a surprise!</h2>
-                              </figcaption>
-                          </figure>
-                      </div>
-
-                  </div>
-
-              </div>
-
-  		</div>
-
-    </section>
-
-  <!-- Projects end -->
-
-	<!-- Chess start -->
-
-	<section id="chess" class="pfblock pfblock-gray">
-
-		<div class="container">
-
-      <div class="row">
-
-				<div class="col-sm-6 col-sm-offset-3">
-
-					<div class="pfblock-header wow fadeInUp">
-						<h2 class="pfblock-title">Chess</h2>
-						<div class="pfblock-line"></div>
-						<div class="pfblock-subtitle">
-							<p>I am a US Chess Federation Expert (peak rating of 2157 as of 2016) and a writer and secondary manager for <a href="https://chesssummit.com/">Chess^Summit</a>, a free chess instruction site.</p>
-
-              <ul class="list-group">
-                <li class="list-group-item list-group-item-info"><b>Links</b></li>
-                <a href="http://www.uschess.org/msa/MbrDtlMain.php?13450652" class="list-group-item"><u>My USCF page</u></a>
-                <a href="https://chesssummit.com/" class="list-group-item"><u>Chess^Summit</u></a>
-                <a href="https://www.chess.com/blog/blitzcopter" class="list-group-item"><u>My chess.com blog</u></a>
-              </ul>
-            </div>
-					</div>
-
-				</div>
-
-			</div><!-- .row -->
-    </div>
-	</section>
-
-	<!-- Chess end -->
-
-
-	<!-- Contact start -->
-
-	<section id="contact" class="pfblock">
-		<div class="container">
-			<div class="row">
-
-				<div class="col-sm-6 col-sm-offset-3">
-
-					<div class="pfblock-header">
-						<h2 class="pfblock-title">Contact me</h2>
-						<div class="pfblock-line"></div>
-						<div class="pfblock-subtitle">
-						</div>
-					</div>
-
-				</div>
-
-			</div><!-- .row -->
-
-			<div class="row">
-
-				<div class="col-sm-6 col-sm-offset-3">
-
-					<form id="contact-form" role="form">
-						<div class="ajax-hidden">
-							<div class="form-group wow fadeInUp">
-								<label class="sr-only" for="c_name">Name</label>
-								<input type="text" id="c_name" class="form-control" name="c_name" placeholder="Name">
-							</div>
-
-							<div class="form-group wow fadeInUp" data-wow-delay=".1s">
-								<label class="sr-only" for="c_email">Email</label>
-								<input type="email" id="c_email" class="form-control" name="c_email" placeholder="E-mail address">
-							</div>
-
-							<div class="form-group wow fadeInUp" data-wow-delay=".2s">
-								<textarea class="form-control" id="c_message" name="c_message" rows="7" placeholder="Message"></textarea>
-							</div>
-
-							<button type="submit" class="btn btn-lg btn-block wow fadeInUp" data-wow-delay=".3s">Send Message</button>
-						</div>
-						<div class="ajax-response"></div>
-					</form>
-
-				</div>
-
-			</div><!-- .row -->
-		</div><!-- .container -->
-	</section>
-
-	<!-- Contact end -->
-
-	<!-- Footer start -->
-
-	<footer id="footer">
-		<div class="container">
-			<div class="row">
-
-				<div class="col-sm-12">
-
-          <ul class="social-links">
-						<li><a href="mailto:beilinl@andrew.cmu.edu" class="wow fadeInUp"><i class="fa fa-envelope"></i></a></li>
-						<li><a href="https://github.com/beilinli" class="wow fadeInUp" data-wow-delay=".1s"><i class="fa fa-github"></i></a></li>
-						<li><a href="https://facebook.com/real.beilinli" class="wow fadeInUp"><i class="fa fa-facebook"></i></a></li>
-						<li><a href="https://www.linkedin.com/in/beilinli" class="wow fadeInUp" data-wow-delay=".4s"><i class="fa fa-linkedin"></i></a></li>
-					</ul>
-
-          <p class="copyright">
-            © 2016 Beilin Li | Made with <a href="http://getbootstrap.com/">Bootstrap</a> and <a href="https://www.bootstrapzero.com/bootstrap-template/clean">Clean</a>.
-					</p>
-
-				</div>
-
-			</div><!-- .row -->
-		</div><!-- .container -->
-	</footer>
-
-	<!-- Footer end -->
-
-	<!-- Scroll to top -->
-
-	<div class="scroll-up">
-		<a href="#home"><i class="fa fa-angle-up"></i></a>
+      	<div class="modal-footer">
+        	<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      	</div>
+    	</div>
+  	</div>
 	</div>
+	<!-- end about -->
 
     <!-- Scroll to top end-->
 
@@ -384,14 +97,8 @@
 
 	<script src="assets/js/jquery-1.11.1.min.js"></script>
 	<script src="assets/bootstrap/js/bootstrap.min.js"></script>
-	<script src="assets/js/jquery.parallax-1.1.3.js"></script>
-	<script src="assets/js/imagesloaded.pkgd.js"></script>
 	<script src="assets/js/jquery.sticky.js"></script>
-	<script src="assets/js/smoothscroll.js"></script>
-	<script src="assets/js/wow.min.js"></script>
-    <script src="assets/js/jquery.easypiechart.js"></script>
-    <script src="assets/js/waypoints.min.js"></script>
-    <script src="assets/js/jquery.cbpQTRotator.js"></script>
+  <script src="assets/js/waypoints.min.js"></script>
 	<script src="assets/js/custom.js"></script>
 </body>
 </html>
